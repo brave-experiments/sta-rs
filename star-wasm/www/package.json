@@ -23,7 +23,7 @@
   },
   "homepage": "https://github.com/brave/sta-rs#readme",
   "dependencies": {
-    "koa": "2.14.2",
+    "koa": "2.15.4",
     "koa-static": "5.0.0",
     "star-wasm": "file:../pkg"
   },
