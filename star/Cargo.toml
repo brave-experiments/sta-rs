@@ -19,9 +19,9 @@ rand_core = "0.6.4"
 zeroize = "1.5.5"
 
 [dev-dependencies]
-criterion = "0.5.1"
+criterion = "=0.5.1"
 star-test-utils = { path = "./test-utils" }
-rand = { version = "0.8.5", features = [ "std" ] }
+rand = { version = "=0.8.5", features = [ "std" ] }
 
 [features]
 star2 = []

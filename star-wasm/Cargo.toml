@@ -23,4 +23,4 @@ base64 = "0.20"
 console_error_panic_hook = "0.1.7"
 
 [dev-dependencies]
-wasm-bindgen-test = "0.3"
+wasm-bindgen-test = "=0.3.50"

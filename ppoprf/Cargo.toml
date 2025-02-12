@@ -23,13 +23,13 @@ zeroize = { version = "1.5.5", features = [ "derive" ] }
 rand_core = "0.6.4"
 
 [dev-dependencies]
-criterion = "0.5.1"
-env_logger = "0.11.3"
-log = "0.4.21"
-reqwest = { version = "0.12.4", features = [ "blocking", "json" ] }
-dotenvy = "0.15.7"
-tokio = { version = "1.37.0", features = ["macros", "rt-multi-thread", "time"] }
-warp = "0.3.7"
+criterion = "=0.5.1"
+env_logger = "=0.11.3"
+log = "=0.4.21"
+reqwest = { version = "=0.12.4", features = [ "blocking", "json" ] }
+dotenvy = "=0.15.7"
+tokio = { version = "=1.37.0", features = ["macros", "rt-multi-thread", "time"] }
+warp = "=0.3.7"
 
 [[bench]]
 name = "bench"
